@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #0e172c; }
+
+.container {
+  width: 280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2a4e;
+  border-radius: 1rem;
+  padding: 0.7rem 0; }
+  .container header {
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.6rem; }
+    .container header .header_pic {
+      width: 230px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 1rem; }
+  .container main {
+    width: 230px; }
+    .container main h4 {
+      color: white;
+      font-weight: 700;
+      padding-bottom: 0.5rem; }
+    .container main .main_text {
+      color: #b3b3b3;
+      font-size: 0.8rem;
+      font-weight: 100; }
+    .container main .days {
+      margin-top: 0.8rem;
+      width: 230px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      border-bottom: 1px solid #b3b3b3;
+      padding-bottom: 1rem; }
+      .container main .days .ethereum_icon {
+        color: #00ffd1; }
+        .container main .days .ethereum_icon .fa-ethereum {
+          padding-right: 0.3rem; }
+      .container main .days .clock_icon {
+        color: #b3b3b3; }
+        .container main .days .clock_icon .fa-clock {
+          padding-right: 0.2rem; }
+  .container footer {
+    width: 230px;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem; }
+    .container footer .footimg {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid white; }
+    .container footer .footer_text {
+      font-size: 0.7rem;
+      color: white; }
+      .container footer .footer_text .footcolor_text {
+        color: #b3b3b3;
+        padding-right: 0.2rem; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 400px;
+    height: 550px;
+    padding: 1.5rem 0; }
+    .container header {
+      width: 350px; }
+      .container header .header_pic {
+        width: 300px;
+        height: 300px;
+        object-fit: cover; }
+    .container main {
+      width: 300px; }
+      .container main h4 {
+        padding-bottom: 0.7rem;
+        font-size: 1.2rem; }
+      .container main .main_text {
+        font-size: 1rem;
+        font-weight: 200; }
+      .container main .days {
+        margin-top: 1rem;
+        width: 300px;
+        font-size: 1rem;
+        padding-bottom: 1.2rem; }
+        .container main .days .fa-ethereum {
+          padding-right: 0.3rem; }
+        .container main .days .fa-clock {
+          padding-right: 0.3rem; }
+    .container footer {
+      width: 300px;
+      margin-top: 1.2rem; }
+      .container footer .footimg {
+        width: 30px;
+        height: 30px; }
+      .container footer .footer_text {
+        font-size: 1rem; }
+        .container footer .footer_text .footcolor_text {
+          padding-right: 0.3rem; } }
+@media (min-width: 1025px) {
+  .container {
+    width: 320px;
+    height: 500px; }
+    .container header {
+      width: 250px; }
+      .container header .header_pic {
+        width: 250px;
+        height: 250px;
+        object-fit: cover; }
+    .container main {
+      width: 250px; }
+      .container main h4 {
+        padding-bottom: 0.7rem;
+        font-size: 1.2rem; }
+      .container main .main_text {
+        font-size: 1rem;
+        font-weight: 200; }
+      .container main .days {
+        margin-top: 1rem;
+        width: 250px;
+        font-size: 1rem;
+        padding-bottom: 1.2rem; }
+    .container footer {
+      width: 250px;
+      margin-top: 1.2rem; }
+      .container footer .footimg {
+        width: 25px;
+        height: 25px; }
+      .container footer .footer_text {
+        font-size: 0.8rem; }
+        .container footer .footer_text .footcolor_text {
+          font-size: 0.8rem;
+          padding-right: 0.3rem; } }
+
+/*# sourceMappingURL=style.css.map */
