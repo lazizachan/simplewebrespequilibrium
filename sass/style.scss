@@ -32,6 +32,10 @@ body {
       height: 230px;
       object-fit: cover;
       border-radius: 1rem;
+      &:hover {
+        opacity: 0.6;
+        cursor: pointer;
+      }
     }
   }
   main {
@@ -40,6 +44,10 @@ body {
       color: white;
       font-weight: 700;
       padding-bottom: 0.5rem;
+      &:hover {
+        color: #00ffd1;
+        cursor: pointer;
+      }
     }
     .main_text {
       color: #b3b3b3;
@@ -84,9 +92,16 @@ body {
     .footer_text {
       font-size: 0.7rem;
       color: white;
+
       .footcolor_text {
         color: #b3b3b3;
         padding-right: 0.2rem;
+      }
+      .hovercol {
+        &:hover {
+          color: #00ffd1;
+          cursor: pointer;
+        }
       }
     }
   }

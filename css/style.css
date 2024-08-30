@@ -30,12 +30,18 @@ body {
       height: 230px;
       object-fit: cover;
       border-radius: 1rem; }
+      .container header .header_pic:hover {
+        opacity: 0.6;
+        cursor: pointer; }
   .container main {
     width: 230px; }
     .container main h4 {
       color: white;
       font-weight: 700;
       padding-bottom: 0.5rem; }
+      .container main h4:hover {
+        color: #00ffd1;
+        cursor: pointer; }
     .container main .main_text {
       color: #b3b3b3;
       font-size: 0.8rem;
@@ -73,6 +79,9 @@ body {
       .container footer .footer_text .footcolor_text {
         color: #b3b3b3;
         padding-right: 0.2rem; }
+      .container footer .footer_text .hovercol:hover {
+        color: #00ffd1;
+        cursor: pointer; }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
